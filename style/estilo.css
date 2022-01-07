@@ -4,32 +4,49 @@ html {
   }
 
 body {
-    margin:100%;
-    padding:auto;
+    margin:auto;
     font-family: sans-serif;
     background: linear-gradient(#141e30, #243b55);
     }
 
-div.name {
-    width: 50%;
-    margin: 20px auto;
-    background-color: #449;
+h1,h2 {
+    margin: 20 20 30px;
+    padding: 0;
     color: #fff;
-    padding: 15px;
     text-align: center;
-  }
+    }
 
-div.name h1{
-    width: 50%;
-    margin: 20px auto;
-    background-color: #449;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-  }
-
-div.name img.perfil{
-    width: 100px;
-    height: 100px;
+.perfil{
+    width: 148px;
+    height: 184px;
     float: right;
+    position: relative;
+    top: 40px; right: 50px;
+    color: #fff;
   }
+
+.gmail{
+    border-image-slice: 100%;
+    width: 40px;
+    height: 30px;
+    color: #fff;
+}
+
+.github{
+    border-image-slice: 100%;
+    width: 40px;
+    height: 30px;
+    color: #fff;
+}
+
+.linked{
+    border-image-slice: 100%;
+    width: 40px;
+    height: 30px;
+    color: #fff;
+}
+
+th {
+    background-color: white;
+    text-align: center;
+    }
